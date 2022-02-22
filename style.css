@@ -1,0 +1,361 @@
+body{
+    background: #f5f5f5;
+}
+
+header p{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+header p:before{
+    content:"✵"
+}
+
+.caja nav{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+nav li{
+    display: inline;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin: 0 0 0 16px;
+}
+
+nav a{
+    
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#000000;
+    text-decoration: underline;
+}
+
+
+h2{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 61px;
+    color: #464646;
+    width: 65%;
+    padding: 130px 0 0 50px ;
+}
+
+.principal p{
+    position: relative;
+    left: 5%;
+    padding-top: 20px;
+    font-size: larger;
+}
+
+.principal img{
+    border-radius: 50%;
+    width: 25%;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    z-index: +1;
+}
+
+section nav li{
+    display: inline;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin: 0 0 0 16px;
+}
+
+section nav li:after{
+    content: "⬈";
+    font-weight: bold;
+}
+
+section nav{
+    position: relative;
+    left: 5%;
+    padding-top: 20px;
+}
+
+h3{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+    padding-top: 50px;
+}
+
+.sobreMi, .formacion, .contactos{
+    background: #EAF2FD;
+    position: relative;
+    margin-top: 60px;
+    padding-bottom: 80px;
+}
+
+.sobreMi h3{
+    position:relative;
+    left: 5%;
+    text-align: left;
+}
+
+.sobreMi p{
+    text-align: justify;
+    position: relative;
+    left: 5%;
+    padding-top: 20px;
+    font-size: larger;
+    width:65% ;
+}
+
+.skill li{
+    width: 165px;
+    height: 110px;
+    background: #ffffff;
+    display: inline-block;
+    margin:20px 10px 20px 0;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    left: 5%;
+}
+
+.hobbies li {
+    width: 165px;
+    height: 110px; 
+    display: inline-block;
+    margin:20px 10px 20px 0;
+    position: relative;
+    left: 5%;
+}
+
+.formacion li{
+    width: 200px;
+    height: 130px; 
+    display: inline-block;
+    margin:20px 10px 20px 0;
+    position: relative;
+    left: 5%;
+}
+
+
+.hobbies li img, .formacion li img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.formacion li img:hover{
+    cursor: pointer;
+    transform: scale(3);
+    position: absolute ;
+    left: 30%;
+    z-index: +1;
+}
+
+.imagenProyectosA{
+    width: 60%;
+    position: relative;
+    left: 5%;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.tituloProyectosA {
+    display: inline-block;
+    position: absolute;
+    right: 15%;
+    margin-top: 20%;
+}
+
+.tituloProyectosA h4{
+    font-size: large;
+    font-weight: bold;
+}
+
+.tituloProyectosA p{
+    font-size: small;
+}
+.botonRepositorio{
+    width: 100px;
+    height: 40px;
+    border-color: dodgerblue;
+    background: #ffffff;
+}
+
+.botonRepositorio:hover, .botonDemo:hover{
+    cursor: pointer;
+}
+
+.botonDemo{
+    width: 80px;
+    height: 40px;
+    background: dodgerblue;
+    border-color: dodgerblue;
+}
+
+.botonRepositorio a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.botonDemo a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.imagenProyectosB{
+    width: 60%;
+    position: relative;
+    left: 30%;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.tituloProyectosB {
+    display: inline-block;
+    position: absolute;
+    left: 5%;
+    margin-top: 20%;
+}
+
+.tituloProyectosB h4{
+    font-size: large;
+    font-weight: bold;
+}
+
+.tituloProyectosB p{
+    font-size: small;
+}
+
+.formContactos{
+    display: inline-block;
+    position: relative;
+    left:5%;
+}
+
+.logo-email{
+    
+    width: 40%;
+    margin-top:90px;
+    float: left;
+}
+
+.cajas{
+    width: 50%;
+    height: 2em;
+    margin-top: 1.5em;
+    position: relative;
+    left: 1%;
+}
+
+.textArea{
+    width: 50%;
+    height: 6em;
+    margin-top: 1.5em;
+    position: relative;
+    left: 1%;
+}
+
+.botonEnviar{
+    width: auto;
+    height: 40px;
+    background: dodgerblue;
+    border-color: dodgerblue;
+    margin-top: 2em;
+    color: #ffffff;
+    position: relative;
+    left: 1%;
+}
+.formContactos h3{
+    text-align: left;
+    padding-top: 90px;
+    position: relative;
+    left:1%;
+}
+
+.formContactos p{
+    position: relative;
+    left:1%;
+}
+
+footer{
+    background: #ffffff;
+    text-align: center;
+    height: 6em;
+}
+
+@media screen and (min-width:421px) and (max-width:920px){
+    .caja nav{
+        display: none;
+    }
+    .sobreMi p{
+        width: 90%;
+    }
+    .imagenProyectosA, .imagenProyectosB, .tituloProyectosA, .tituloProyectosB{
+        position: relative;
+        left: 10%;
+        display: block;
+    }
+    .logo-email{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:420px){
+    .caja nav{
+        display: none;
+    }
+    .caja li:last-child {
+        display:block;
+    }    
+
+    .principal h2{
+        font-size: 25px;
+        width: 85%;
+        line-height: 30px;
+        
+    }
+    .principal img{
+        display: block;
+        position: relative;
+        left: 5%;
+    }
+    .sobreMi p{
+        width: 90%;
+    }
+    .imagenProyectosA, .imagenProyectosB, .tituloProyectosA, .tituloProyectosB{
+        position: relative;
+        left: 10%;
+        display: block;
+    }
+    .logo-email{
+        display: none;
+    }
+
+}
+
+
+
