@@ -322,7 +322,7 @@ footer{
     height: 6em;
 }
 
-@media screen and (min-width:421px) and (max-width:920px){
+@media screen and (min-width:427px) and (max-width:920px){
     .caja nav{
         display: none;
     }
@@ -340,13 +340,10 @@ footer{
 
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:426px){
     .caja nav{
         display: none;
-    }
-    .caja li:last-child {
-        display:block;
-    }    
+    }   
 
     .principal h2{
         font-size: 25px;
