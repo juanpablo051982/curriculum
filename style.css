@@ -18,6 +18,10 @@ header p:before{
     content:"✵"
 }
 
+.contactoMovil{
+    display: none;
+}
+
 .caja nav{
     position: absolute;
     top: 5%;
@@ -326,6 +330,12 @@ footer{
     .caja nav{
         display: none;
     }
+    .contactoMovil{
+        display: inline-block;
+        position: relative;
+        left: 80%;
+        padding-top: 3em;
+    }
     .sobreMi p{
         width: 90%;
     }
@@ -347,7 +357,12 @@ footer{
     .caja nav{
         display: none;
     }   
-
+    .contactoMovil{
+        display: inline-block;
+        position: relative;
+        left: 70%;
+        padding-top: 3em;
+    }
     .principal h2{
         font-size: 25px;
         width: 85%;
