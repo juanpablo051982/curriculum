@@ -96,6 +96,22 @@ section nav{
     padding-top: 20px;
 }
 
+.botonDescarga{
+    position: relative;
+    left: 10%;
+    margin-top: 30px;
+    height: 3em;
+    width: auto;
+    background: #a10303;
+    border-color: #a10303 ;
+}
+
+.botonDescarga a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
 h3{
     font-family: Raleway;
     font-style: normal;
