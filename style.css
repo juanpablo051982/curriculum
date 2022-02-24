@@ -333,7 +333,7 @@ footer{
     .contactoMovil{
         display: inline-block;
         position: relative;
-        left: 80%;
+        left: 77%;
         padding-top: 3em;
     }
     .sobreMi p{
@@ -360,8 +360,8 @@ footer{
     .contactoMovil{
         display: inline-block;
         position: relative;
-        left: 70%;
-        padding-top: 3em;
+        left: 75%;
+        padding-top: 2em;
     }
     .principal h2{
         font-size: 25px;
