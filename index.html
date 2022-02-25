@@ -113,12 +113,16 @@
                     <img class="logo-email" src="imagenes/email-logo.png" alt="imagen del logo de email"> 
                     <h3>Contactos</h3>
                     <p>¿Quieres contactarme?</p>
-                    <p>Complete el siguiente formulario y me pondré en contacto con usted<br> lo antes posible.</p>
+                    <p>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p><br>
                     <form>
-                        <input type="text" name="nombre" class="cajas" placeholder="Nombre" required><br>
-                        <input type="email" name="email" placeholder="E-mail" class="cajas" required><br>
-                        <input type="text" name="asunto" placeholder="Asunto" class="cajas" required><br>
-                        <textarea  class="textArea" required>Mensaje:</textarea><br>
+                        <label for="nombre">Nombre</label><br>
+                        <input type="text" name="nombre" class="cajas" placeholder="Nombre" required id="nombre"><br>
+                        <label for="mail">E-mail</label><br>
+                        <input type="email" name="email" placeholder="E-mail" class="cajas" required id="mail"><br>
+                        <label for="asunto">Asunto</label><br>
+                        <input type="text" name="asunto" placeholder="Asunto" class="cajas" required id="asunto"><br>
+                        <label for="textArea">Mensaje</label><br>
+                        <textarea  class="textArea" required id="textArea">Mensaje:</textarea><br>
                         <input type="submit" class="botonEnviar" value="Enviar mensaje">
                         </form>
                     
