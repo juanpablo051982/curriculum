@@ -23,9 +23,10 @@ header p:before{
 }
 
 .caja nav{
-    position: absolute;
+    position: fixed;
     top: 5%;
     right: 5%;
+    z-index: +2;
 }
 
 nav li{
