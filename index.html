@@ -117,17 +117,28 @@
                     <form>
                         <label for="nombre">Nombre</label><br>
                         <input type="text" name="nombre" class="cajas" placeholder="Nombre" required id="nombre"><br>
-                        <label for="mail">E-mail</label><br>
-                        <input type="email" name="email" placeholder="E-mail" class="cajas" required id="mail"><br>
+                        <label for="email">E-mail</label><br>
+                        <input type="email" name="email" placeholder="E-mail" class="cajas" required id="email"><br>
                         <label for="asunto">Asunto</label><br>
                         <input type="text" name="asunto" placeholder="Asunto" class="cajas" required id="asunto"><br>
-                        <label for="textArea">Mensaje</label><br>
-                        <textarea  class="textArea" required id="textArea">Mensaje:</textarea><br>
-                        <input type="submit" class="botonEnviar" value="Enviar mensaje">
+                        <label for="mensaje">Mensaje</label><br>
+                        <textarea  class="textArea" required id="mensaje"></textarea><br>
+                        <input id="enviarCorreo" type="submit" class="botonEnviar" value="Enviar mensaje">
                         </form>
                     
                 </div>
             </section>
+            <script>
+                const btnEnvio=document.getElementById("enviarCorreo");
+                btnEnvio.addEventListener("click",function(e){
+                    e.preventDefault();
+                    const nombre=document.getElementById("nombre").value;
+                    const email=document.getElementById("email").value;
+                    const asunto=document.getElementById("asunto").value;
+                    const mensaje=document.getElementById("mensaje").value;
+                    window.location.href=`mailto:juanpablo82@msn.com?subject=enviodesdeformulario&body=nombre%3A${nombre}%0Aemail%3A${email}%0Aasunto%3A${asunto}%0Amensaje%3A${mensaje}`;
+                });
+            </script>
         </main>
         <footer><br><br>Realizado por Marquez Pagnat Juan Pablo<br> 2022</footer>
     </body>
