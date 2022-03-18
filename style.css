@@ -48,6 +48,7 @@ nav a{
 nav a:hover{
     color:#000000;
     text-decoration: underline;
+    background: lightblue;
 }
 
 
@@ -312,6 +313,10 @@ label{
     color: #ffffff;
     position: relative;
     left: 1%;
+}
+.botonEnviar:hover{
+    cursor: pointer;
+
 }
 .formContactos h3{
     text-align: left;
